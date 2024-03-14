@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 100vh;
+    width: 19.8%;
+    position: fixed;
+    box-shadow: 1px 1px 5px 5px rgb(240, 239, 239);
+}
+#image{
+    height: 30vh;
+}
+.logo{
+    height: 23px;
+    width: 43%;
+    position: absolute;
+    top: 60px;
+    left: 11%;
+}
+#image1{
+    height: 100%;
+    width: 100%;
+}
+.ul1{
+    margin: 10px 11%;
+}
+.li1{
+    list-style: none;
+    font-size: HKGrotesk, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 20px;
+}
+#icon1{
+    margin-left: 45%;
+    opacity: 0;
+    transition: .5s;
+}
+.li1:hover{
+    color: orangered;
+}
+.li1:hover #icon1{
+    color: orangered;
+    opacity: 1;
+    margin-left: 50%;
+}
+.main1{
+    height: max-content;
+    width: 80.3%;
+    margin-left: 19.7%;
+    background-color: white;
+    padding: 1px;
+}
+.ul2{
+    width: max-content;
+    margin: 55px 60% ;
+}
+.li2{
+    list-style: none;
+    font-family: HKGrotesk, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    color: black;
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+.li2:hover{
+    color: orangered;
+}
+.lii2{
+    color: orangered;
+}
+.color1{
+    height: 3px;
+    width: 100%;
+    background-color: orangered;
+    margin-top: 10px;
+    transition: .5s;
+    margin-top: -12px;
+}
+.li2:hover .color1{
+    width: 100%;
+    background-color: orangered;
+}
+.color2{
+    height: 2.5px;
+    width: 0%;
+    background-color: black;
+    margin-top: 0px;
+    transition: .5s;
+    margin-top: -12px;
+}
+.li2:hover .color2{
+    width: 100%;
+    background-color: orangered;
+
+}
+.main2{
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+}
+.child1{
+    height: 260px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+
+}
+.child1:hover #image3{
+    transform: scale(1.1);
+}
+#image3{
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+}
+.overlay {
+    position: absolute;
+    z-index: 11;
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.619),rgba(0, 0, 0, 0.655));
+    border-radius: 5px;
+    opacity: 0;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    height: auto;
+    width: 90%;
+    text-align: center;
+    transition: .5s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+#icon2{
+    font-size: large;
+    color: red;
+    margin-top: -10px;
+    opacity: 0;
+    transition: .5s;
+}
+.overlay:hover #icon2{
+    opacity: 1;
+    margin-top: 10px;
+}  
+.p1{
+    font-family: HKGrotesk, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    margin-top: 20px;
+    opacity: 0;
+    transition: .5s;
+}
+.overlay:hover .p1{
+    margin-top: 30px;
+    opacity: 1;
+}  
+.p2{
+    font-family: HKGrotesk, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: gray;
+    margin-top: 70px;
+    opacity: 0;
+    transition: .5s;
+}
+.overlay:hover .p2{
+    margin-top: 20px;
+    opacity: 1;
+} 
+.ch1{
+    height: 350px;
+}
+.ch2{
+    height: 400px;
+}
+.ch3{
+    height: 240px;
+}
+.ch4{
+    height: 375px;
+}
+.btn1{
+    height: 50px;
+    width: 160px;
+    border: 2px solid;
+    font-size: medium;
+    color: black;
+    background-color: transparent;
+    transition: .5s;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 100px 40%;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+
+}
+.main3{
+    height: 100vh;
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.child2{
+    height:90vh;
+    width: 48%;
+}
+.div2{
+    height: 2px;
+    width: 10%;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.p3{
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: black;
+    margin-top: -10px;
+    margin-left: 17%;
+}
+.p4{
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 49px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.p5{
+    font-family: HKGrotesk, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(74, 79, 85);
+    margin-top: 30px;
+    margin-left: 5%;
+}
+.div3{
+    height: max-content ;
+    width: 160px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 150px 5%;
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+}
+.p6{
+    font-family: HKGrotesk, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 26px;
+    color: black;
+    width: max-content;
+    top: 10px;
+    left: 5%;
+    position: absolute;
+    
+}
+#icon3{
+    font-size: 17px;
+    color: orangered;
+    left: 90px;
+    top: 15px;
+    position: absolute;
+    opacity: 0;
+    display: none;    
+    transition: all .5s;
+}
+.div3:hover #icon3{
+    opacity: 1;
+    display: block;
+    left: 110px;
+}
+#icon4{
+    font-size: 17px;
+    color: black;
+    left: 110px;
+    top: 15px;
+    position: absolute;
+    transition: all .5s;
+    z-index: 10;
+}
+.div3:hover #icon4{
+    color: orangered;
+}
+.image4{
+    background-image: url(./helion-2nd/decoration-circles-2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#image5{
+    height: 88%;
+    width: 85%;
+    margin-top: 12%;
+
+}
+#image6{
+    height: 35px;
+    position: absolute;
+    top: 120px;
+    left: 75%;
+    animation: a3 4s infinite linear;
+    
+}
+@keyframes a3 {
+    0%{
+        top: 120px;
+        left: 75%;
+    }
+    25%{
+       left: 80%;
+       top: 140px;
+    }
+    50%{
+        top: 160px;
+        left: 75%;
+    }
+    75%{
+        left: 70%;
+       top: 140px;
+    }
+    100%{
+        left: 75%;
+        top: 120px;
+    }
+}
+#image7{
+    height: 115px;
+    position: absolute;
+    left: -30px;
+    top: 420px;
+    animation: a4 4s infinite linear;
+    
+}
+@keyframes a4 {
+    0%{
+        left: -30px;
+        top: 420px;
+    }
+    25%{
+       left: -10px;
+       top: 440px;
+    }
+    50%{
+        top: 460px;
+        left: -30px;
+    }
+    75%{
+        left: -50px;
+       top: 440px;
+    }
+    100%{
+        left: -30px;
+        top: 420px;
+    }
+}
+.main4{
+    height: 50vh;
+    width: 80%;
+    margin-left: 20%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.child3{
+    height: 40vh;
+    width: 45%;
+}
+.p7{
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 44px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+.p8{
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+}
+.color3{
+    height: 2px;
+    width: 0;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    top: 40px;
+    transition: .5s;
+}
+.p8:hover .color3{
+    width: 100%;
+
+}
+.ul3{
+    margin-left: 5%;
+    margin-top: 60px;
+}
+.p9{
+    list-style: none;
+    font-family: LouisGeorgeCafe, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .5s;
+    width: max-content;
+}
+.p9:hover{
+    color: orangered;
+    margin-left: 15px;
+}
+.ul4{
+   margin-top: -170px;
+   margin-left: 30%;
+    
+}
+.div4{
+    height: 40px;
+    width: 30%;
+    margin: -135px 65%;
+    text-align: center;
+}
+#icon5{
+    font-size: 25px;
+    color: gray;
+    transition: .5s;
+    cursor: pointer;
+    margin-left: 8%;
+}
+#icon5:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+
+/* ////////////////////// Media  Queries ///////////////// */
+
+@media screen and (max-width:1024px) {
+    #image5{
+        top: 100px;
+    }    
+}
+
